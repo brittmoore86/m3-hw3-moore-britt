@@ -21,9 +21,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-img {
-  background-color: green;
-}
 .hero-image {
   background-image: url("img/banner-bg.png");
   height: 40vh;
