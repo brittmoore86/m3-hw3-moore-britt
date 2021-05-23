@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto";
   background-color: #F8DF1F;
@@ -46,9 +51,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.burger img {
-  max-width: 60%;
-  padding-top: 20%;
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 86px;
+  border-radius: 0;
+  margin-top: -35px;
+}
+col-sm-6 .burger img {
+  width: 12%;
 }
 .bob img {
   margin-left: 20%;

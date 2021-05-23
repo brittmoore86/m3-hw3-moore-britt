@@ -1,3 +1,19 @@
+.p1 {
+  margin-left: 20px;
+}
+p,
+h2 {
+  margin-left: 20px;
+}
+.contact-btn,
+.menu-btn {
+  margin-left: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto";
   background-color: #F8DF1F;
@@ -46,9 +62,24 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.burger img {
-  max-width: 60%;
-  padding-top: 20%;
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 86px;
+  border-radius: 0;
+  margin-top: -35px;
+  margin-bottom: -3px;
+}
+.burger {
+  max-width: 30%;
+  min-width: 25%;
+  margin-left: 25%;
+}
+.bob {
+  margin-left: 10%;
+}
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 .bob img {
   margin-left: 20%;
@@ -74,4 +105,7 @@ span {
 footer {
   background-color: #080801;
   padding: 25px;
+}
+.logo {
+  min-width: 25%;
 }
