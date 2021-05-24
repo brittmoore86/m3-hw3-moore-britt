@@ -32,6 +32,7 @@ body {
 
 // **************Banner Image***************
 
+
 .centered {
     position: absolute;
     top: 50%;
@@ -57,6 +58,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
   }
+  
 
   .order {
     position: absolute;
@@ -70,12 +72,13 @@ body {
     padding-right: 0;
     padding-left: 86px;
     border-radius: 0;
-    margin-top: -35px;
+    margin-top: -57px;
     margin-bottom: -3px;
+    background-color: @section-color;
 }
 
 .burger {
-    max-width: 30%;
+    max-width: 75%;
     min-width: 25%;
     margin-left: 25%;
 }
@@ -105,12 +108,11 @@ body {
 }
 
 
-button {
+.btn {
     background-color: @primary-color;
-    border-radius: 3px;
+    color: black;
     border: none;
-    padding: 5px;
-    margin: 5px;
+    
 }
 
 
@@ -123,8 +125,11 @@ span {
 footer {
     background-color: @secondary-color;
     padding: 25px;
+    border-top: 8px solid @primary-color;
 }
 
 .logo {
     min-width: 25%;
 }
+
+

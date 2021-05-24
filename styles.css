@@ -5,8 +5,7 @@ p,
 h2 {
   margin-left: 20px;
 }
-.contact-btn,
-.menu-btn {
+button {
   margin-left: 20px;
 }
 * {
@@ -66,11 +65,12 @@ body {
   padding-right: 0;
   padding-left: 86px;
   border-radius: 0;
-  margin-top: -35px;
+  margin-top: -57px;
   margin-bottom: -3px;
+  background-color: #F3F3F3;
 }
 .burger {
-  max-width: 30%;
+  max-width: 75%;
   min-width: 25%;
   margin-left: 25%;
 }
@@ -92,12 +92,10 @@ body {
 .mx-auto {
   max-width: 20%;
 }
-button {
+.btn {
   background-color: #F8DF1F;
-  border-radius: 3px;
+  color: black;
   border: none;
-  padding: 5px;
-  margin: 5px;
 }
 span {
   color: #EE252F;
@@ -105,6 +103,7 @@ span {
 footer {
   background-color: #080801;
   padding: 25px;
+  border-top: 8px solid #F8DF1F;
 }
 .logo {
   min-width: 25%;
