@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 .p1 {
   margin-left: 20px;
 }
@@ -8,18 +11,28 @@ h2 {
 button {
   margin-left: 20px;
 }
+.btn {
+  font-weight: 500;
+}
+.navbar {
+  font-weight: 500;
+  background-color: #F8DF1F;
+  color: black;
+  border: none;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto";
   background-color: #F8DF1F;
 }
 .navbar {
   background-color: #F8DF1F;
-  padding: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: -36px;
 }
 .navbar ul li {
   list-style-type: none;
@@ -39,7 +52,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .hero-image {
-  background-image: url("img/banner-bg.png");
+  background-image: url("img/banner-bg-1.png");
   height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
